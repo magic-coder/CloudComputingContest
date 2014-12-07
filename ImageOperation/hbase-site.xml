@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+ <property>
+    <name>hbase.zookeeper.quorum</name>
+    <value>10.60.0.221</value>
+    <description>The directory shared by RegionServers.
+    </description>
+  </property>
+  <property>
+    <name>hbase.rootdir</name>
+    <value>hdfs://10.60.0.221:49000/hbase</value>
+    <description>The directory shared by RegionServers.
+    </description>
+  </property>
+
+
+</configuration>
+
+
